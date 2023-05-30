@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Learn various needs in 1 whole step.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   favicon: 'img/favicon.ico',
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'Learniteasy', // Usually your repo name.
