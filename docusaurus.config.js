@@ -3,9 +3,9 @@ module.exports = {
   tagline: 'Learn various needs in 1 whole step.',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'Learniteasy', // Usually your GitHub org/user name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'Learniteasy', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -83,7 +83,7 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-      docs: {
+        docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
@@ -100,4 +100,5 @@ module.exports = {
         },
       },
     ],
-  ]
+  ],
+};
